@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+#brand-name{
+    color: green;
+    padding-left: 40px;
+    font-size:38px;
+}
+#small-brand{
+    padding-left: 41px;
+    font-size:18px;
+    margin-top: 5px;;
+}
+.logo-img{
+    margin: 15px;
+
+}
+.navbar-brand{
+    margin: 7px;
+}
+.navbar-brand a:hover,.navbar-brand a:focus{
+    text-decoration:none;
+} 
+.btn{
+    margin-right: 10px;
+}
+#mov-text{
+    color:red;
+}
+/* navbar-end */
+/* jumbotron starts*/
+.jumbo-img{
+    background: url('jumbotron.jpg');
+    background-size: 100% 100%;
+    height: 670px;
+}
+.section1{
+    border: 2px solid black;
+    width: 300px;
+    height: 450px;
+    position: absolute;
+    left: 100px;
+    margin: 10px;
+    background-color: whitesmoke;
+}
+#heading1,#heading2{
+    border-bottom: 2px solid black;
+    text-align:center;
+    color: red;
+    height: 37px;
+    vertical-align: center;
+    margin-top: 10px;
+}
+#content1,#content2{
+    margin: 20px;
+    padding:10px;
+}
+.section2{
+    border: 2px solid black;
+    width: 300px;
+    height: 450px;
+    position: absolute;
+    right: 100px;
+    margin:10px;
+    
+    background-color: whitesmoke;
+}
+.jumbotron{
+    margin-bottom: 0rem !important;
+
+}
+/* jumbotron ends */
+/* Aboutus and ContactUs starts*/
+.visioncontent{
+    font-style: italic;
+}
+.about{
+    /* margin-top: 30px; */
+    /* background-color: wheat; */
+    padding:30px;
+}
+.contactus{
+    /* background-color: rgb(141, 243, 141); */
+    margin-top: 30px;
+    padding: 30px;
+    /* background-color: wheat; */
+}
+#padding-left{
+    padding-left: 30px;
+}
+/*About and ConatctUs ends*/
+/*footer starts*/
+.footer{
+        margin-bottom: 0;
+        padding: 10px;
+        background-color: rgb(207, 231, 170);
+        text-align: center;
+        /* position: absolute;
+        bottom: 0px;
+        width: -webkit-fill-available; */
+}
+/*footer ends*/
+div.jumbotron.jumbo-img{
+    margin-bottom: 0;
+}
+/*
+signup form 
+*/
+/* .signupform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+.errormsg{
+    color:red;
+}
+.successsignup{
+    color: green;
+}
+
+/*
+signup form ends
+*/
+
+
+/*login btn*/
+/* a.logoutbtn{
+    border: 1px solid #007bff !important;
+    background: #007bff !important;
+    border-radius: 3px !important;
+    color: white !important;
+    height: 30px !important;
+    font-size: 14px !important;
+    padding: 4px 6px !important;
+}
+ */
+/* 
+ a:hover{
+     background-color: rgb(73, 10, 10);
+ } */
+#applybtn{
+    margin:10px;
+}
+
+
+
+/*appointment table*/
+
+
+table.mytable th{
+    padding: 15px 40px 15px 40px ; 
+} 
+ 
+table.mytable td{
+    color:#a52e07;
+}
+
+
+/* Documents*/
+
+
+.container .docheader{
+    color: chocolate;
+    text-align: center;
+    font-size: 25px;
+    margin: 50px;
+}
+
+
+/*
+
+    color: darkgreen;
+    margin: 30px 22px 32px 227px;
+*/
+
+input #myfile1{
+    color:red;
+}
+
+.doc-img{
+    background: url('doc.jpg');
+    background-size: 100% 100%;
+    height: 670px;
+}
+
+.labelnm{
+    font-size:10px;
+}
